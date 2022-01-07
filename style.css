@@ -1,4 +1,13 @@
+:root{
+    --font:'Roboto', sans-serif;
+}
+
 .imagem-carrossel{
     height: 90vh;
     object-fit: cover;
+}
+
+.lista-informacoes{
+    font: var(--font);
+    list-style-type: none;
 }
