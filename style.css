@@ -11,3 +11,23 @@
     font: var(--font);
     list-style-type: none;
 }
+
+/* .img-funcionarias{
+    max-height: 300px;
+} */
+
+.historias{
+    display: flex;
+    flex-direction: column;
+}
+.historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.imagem-historia{
+    max-height: 40vh;
+    max-width: 35vw;
+}
